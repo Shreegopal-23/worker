@@ -1,0 +1,19 @@
+{
+  "name": "codepush-cache-worker",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "compatibility_date": "2025-05-15",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.19.0"
+  },
+  "private": true,
+  "kv_namespaces": [
+    {
+      "binding": "CODEPUSH_KV",
+      "id": "0193c7c2eea74064be86a9e10dcee166"
+    }
+  ]
+}

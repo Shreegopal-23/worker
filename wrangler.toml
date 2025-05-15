@@ -1,0 +1,11 @@
+{
+  "name": "codepush-cache-worker",
+  "compatibility_date": "2025-05-15",
+  "main": "src/index.js",
+  "kv_namespaces": [
+    {
+      "binding": "CODEPUSH_KV",
+      "id": "0193c7c2eea74064be86a9e10dcee166"
+    }
+  ]
+}
